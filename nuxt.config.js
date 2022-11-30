@@ -12,6 +12,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [{ type: 'script/javascript', src: 'https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/js/uikit.min.js' }{ type: 'script/javascript', src: 'https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/js/uikit-icons.min.js' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
