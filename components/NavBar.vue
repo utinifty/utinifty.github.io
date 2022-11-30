@@ -18,7 +18,7 @@
       </div>
 
       <vs-navbar-item index="0">
-        <a href="#">Home</a>
+        <nuxt-link to="/">Home</nuxt-link>
       </vs-navbar-item>
       <vs-navbar-item index="1">
         <nuxt-link to="/about">About</nuxt-link>
