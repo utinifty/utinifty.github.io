@@ -1,6 +1,5 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -12,7 +11,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [
+    /* script: [
       {
         type: 'script/javascript',
         src: 'https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/js/uikit.min.js',
@@ -21,7 +20,7 @@ export default {
         type: 'script/javascript',
         src: 'https://cdn.jsdelivr.net/npm/uikit@3.15.14/dist/js/uikit-icons.min.js',
       },
-    ],
+    ], */
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -48,8 +47,6 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
